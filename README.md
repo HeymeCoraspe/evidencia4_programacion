@@ -1,7 +1,5 @@
 ISPC 
 
-Primer año
-
 Tecnicatura en desarrollo de software
 
 Módulo programador: programación y bases de datos
