@@ -1,8 +1,13 @@
 ISPC 
+
 Primer año
+
 Tecnicatura en desarrollo de software
+
 Módulo programador: programación y bases de datos
+
 Este repositorio está creado para la entrega de la evidencia 4.
+
 Lenguajes utilizados: Python y SQL. Implementación de TDD
 
 El proyecto consiste una clase que describe los comportamientos y características de una lámpara quirúrgica. 
