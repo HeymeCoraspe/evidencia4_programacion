@@ -1,5 +1,5 @@
 class LamparaQuirurjica:
-	def __init__(self, intensidad, marca=None, modelo=None, color=None, encendido=True,
+	def __init__(self, marca=None, modelo=None, color=None, intensidad=0, encendido=True,
 			  intensidadBaja=40, intensidadMedia=70, intensidadAlta=100):
 		
 		self.intensidad=intensidad
@@ -53,10 +53,10 @@ class LamparaQuirurjica:
 
 #Instancia
 if __name__ == "__main__":	
-	miLampara=LamparaQuirurjica("LG", "HC-16","Negro")
-	miLampara=LamparaQuirurjica(120)
+	miLampara=LamparaQuirurjica("LG","HC-16","Negro")
+	#miLampara=LamparaQuirurjica(120)
 
-#print(miLampara.__str__())
+print(miLampara.__str__())
 #print(miLampara.encender_lampara())
 #print(miLampara.apagar_lampara())
 #print(miLampara.mostrar_intensidad())
